@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <link rel="stylesheet" href="style.css">
+      <title>Document</title>
+</head>
+<body>
+      <div>
+            <fieldset>
+                  <legend>
+                        Podstawowe dane
+                  </legend>
+                  <label for="nazwael">Nazwa elementu:
+                        <select id="nazwael">
+                              <option value="p">p</option>
+                              <option value="h1">h1</option>
+                              <option value="h2">h2</option>
+                              <option value="h3">h3</option>
+                              <option value="h4">h4</option>
+                              <option value="h5">h5</option>
+                              <option value="h6">h6</option>
+                        </select>
+                  </label>
+                  <label for="tekstel"> Tekst w elemencie
+                        <input type="text" id="tekstel">
+                  </label> 
+                  <label for="datael"> Data w elemencie
+                        <input type="date" id="dateel">
+                  </label>
+            </fieldset>
+
+            <fieldset>
+                  <legend>
+                        Formatowanie bloku
+                  </legend>
+                  <label for="paddingel">Padding w elemencie: 0rem
+                        <input type="range" min="0" max="1" step="0.1"> 1rem
+                  </label>
+                  <label for="marginesel">Margines elementu: 0rem
+                        <input type="range" min="0" max="1" step="0.1"> 1rem
+                  </label>
+            </fieldset>
+
+            <fieldset>
+                  <legend>
+                        Kolory
+                  </legend>
+                  <label for="kolortekst">Kolor czcionki:
+                        <input type="color" id="kolortekst">
+                  </label>
+                  <label for="kolortlo">Kolor tła:
+                        <input type="color" id="kolortlo">
+                  </label>
+            </fieldset>
+            
+            <fieldset>
+                  <legend>
+                        Formatowanie tekstu
+                  </legend>
+                  <fieldset>
+                        <legend>Odległość miedzy literami(rem)</legend>
+                        <label for="odleglosctekst">
+                              <input type="number" id="odleglosctekst">rem
+                        </label>
+                  </fieldset>
+                  <fieldset>
+                        <legend>Wyrównanie tekstu</legend>
+                        <label for="wyrownanietekst">
+                              <input type="radio" name="wyrownanietekst" value="lewa">lewa
+                              <input type="radio" name="wyrownanietekst" value="srodek">srodek
+                              <input type="radio" name="wyrownanietekst" value="prawa">prawa
+                        </label>
+                  </fieldset>
+                  <fieldset>
+                        <legend>Dekoracja tekstu</legend>
+                        <label for="dekoracje">
+                              <input type="checkbox" name="podkreslenie">podkreslenie
+                              <input type="checkbox" name="nadkreslenie">nadkreslenie
+                              <input type="checkbox" name="przekreslenie">przekreslenie
+                        </label>
+                  </fieldset>
+            </fieldset>
+      </div>
+</body>
+</html>
