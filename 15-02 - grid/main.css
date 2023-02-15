@@ -1,0 +1,32 @@
+body * {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.container * {
+	padding: 1rem;
+}
+.container {
+	width: 80%;
+	margin: auto;
+}
+header {
+	background-color: #94c2ec;
+}
+main {
+	background-color: #fdea96;
+}
+/* main article:nth-child(3n + 3) {
+} */
+article {
+	background-color: rgba(0, 0, 0, 0.096);
+}
+aside {
+	background-color: #e0f0bc;
+}
+footer {
+	background-color: #94c2ec;
+}
+body{
+	background-color: rgb(233, 212, 212);
+}
