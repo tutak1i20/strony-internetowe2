@@ -1,0 +1,136 @@
+body {
+  background-color: #3d3d3d;
+  color: #cecece;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  display: flex;
+  justify-content: center;
+}
+
+#container {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+h1 {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.przyciski {
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.dane_praktyk {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 20px;
+}
+
+button {
+  height: 40px;
+  width: 150px;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 5px;
+  background-color: #ffffff;
+  touch-action: manipulation;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #3d3d3d;
+  padding: 6px 16px;
+}
+
+button:hover {
+  background-color: #6d6d6d;
+}
+button:active {
+  background-color: #6d6d6d;
+  box-shadow: rgba(20, 70, 32, 0.2) 0 1px 0 inset;
+}
+
+#radio {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#sprawozdanie {
+  height: 70px;
+  width: 500px;
+}
+
+#sprawozdanieP {
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  background-color: transparent;
+}
+
+#obok_siebie {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#dwaGuziki {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#przyciskZielony {
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 5px;
+  box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  text-align: center;
+}
+
+#przyciskZielony:hover {
+  background-color: #268140;
+}
+
+#przyciskZielony:active {
+  background-color: #23793b;
+  box-shadow: rgba(20, 70, 32, 0.2) 0 1px 0 inset;
+}
+
+#przyciskCzerowny {
+  background-color: #a42e2e;
+  border: 1px solid rgba(35, 27, 27, 0.15);
+  border-radius: 5px;
+  box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  text-align: center;
+}
+
+#przyciskCzerowny:hover {
+  background-color: #862828;
+}
+
+#przyciskCzerowny:active {
+  background-color: #752222;
+  box-shadow: rgba(20, 70, 32, 0.2) 0 1px 0 inset;
+}
